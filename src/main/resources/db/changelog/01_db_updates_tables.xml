@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
-    <changeSet id="1" author="your_name">
+    <changeSet id="a598a4af-6cb6-4649-92f9-d73b726fcb5d" author="your_name">
         <createTable tableName="todo">
             <column name="id" type="BIGINT" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
@@ -16,9 +16,7 @@
             <column name="type" type="VARCHAR(255)"/>
             <column name="description" type="VARCHAR(255)"/>
         </createTable>
-    </changeSet>
 
-    <changeSet id="2" author="your_name">
         <createTable tableName="task">
             <column name="id" type="BIGINT" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>

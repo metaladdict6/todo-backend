@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="a622bd8a-a9a9-4082-98d2-3e7315cb0d8e" author="Metaladdict">
+        <insert tableName="todo">
+            <column name="id" valueNumeric="1"/>
+            <column name="name" value="Task 1"/>
+            <column name="type" value="Home"/>
+            <column name="description" value="Description for Task 1"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="2"/>
+            <column name="name" value="Task 2"/>
+            <column name="type" value="Work"/>
+            <column name="description" value="Description for Task 2"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="3"/>
+            <column name="name" value="Task 3"/>
+            <column name="type" value="Shopping"/>
+            <column name="description" value="Description for Task 3"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="4"/>
+            <column name="name" value="Task 4"/>
+            <column name="type" value="Personal"/>
+            <column name="description" value="Description for Task 4"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="5"/>
+            <column name="name" value="Task 5"/>
+            <column name="type" value="Fitness"/>
+            <column name="description" value="Description for Task 5"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="6"/>
+            <column name="name" value="Task 6"/>
+            <column name="type" value="Hobby"/>
+            <column name="description" value="Description for Task 6"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="7"/>
+            <column name="name" value="Task 7"/>
+            <column name="type" value="Education"/>
+            <column name="description" value="Description for Task 7"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="8"/>
+            <column name="name" value="Task 8"/>
+            <column name="type" value="Work"/>
+            <column name="description" value="Description for Task 8"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="9"/>
+            <column name="name" value="Task 9"/>
+            <column name="type" value="Home"/>
+            <column name="description" value="Description for Task 9"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="10"/>
+            <column name="name" value="Task 10"/>
+            <column name="type" value="Fitness"/>
+            <column name="description" value="Description for Task 10"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="11"/>
+            <column name="name" value="Task 11"/>
+            <column name="type" value="Shopping"/>
+            <column name="description" value="Description for Task 11"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="12"/>
+            <column name="name" value="Task 12"/>
+            <column name="type" value="Hobby"/>
+            <column name="description" value="Description for Task 12"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="13"/>
+            <column name="name" value="Task 13"/>
+            <column name="type" value="Education"/>
+            <column name="description" value="Description for Task 13"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="14"/>
+            <column name="name" value="Task 14"/>
+            <column name="type" value="Personal"/>
+            <column name="description" value="Description for Task 14"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="15"/>
+            <column name="name" value="Task 15"/>
+            <column name="type" value="Work"/>
+            <column name="description" value="Description for Task 15"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="16"/>
+            <column name="name" value="Task 16"/>
+            <column name="type" value="Home"/>
+            <column name="description" value="Description for Task 16"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="17"/>
+            <column name="name" value="Task 17"/>
+            <column name="type" value="Fitness"/>
+            <column name="description" value="Description for Task 17"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="18"/>
+            <column name="name" value="Task 18"/>
+            <column name="type" value="Shopping"/>
+            <column name="description" value="Description for Task 18"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="19"/>
+            <column name="name" value="Task 19"/>
+            <column name="type" value="Hobby"/>
+            <column name="description" value="Description for Task 19"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="20"/>
+            <column name="name" value="Task 20"/>
+            <column name="type" value="Education"/>
+            <column name="description" value="Description for Task 20"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="21"/>
+            <column name="name" value="Task 21"/>
+            <column name="type" value="Personal"/>
+            <column name="description" value="Description for Task 21"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="22"/>
+            <column name="name" value="Task 22"/>
+            <column name="type" value="Work"/>
+            <column name="description" value="Description for Task 22"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="23"/>
+            <column name="name" value="Task 23"/>
+            <column name="type" value="Home"/>
+            <column name="description" value="Description for Task 23"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="24"/>
+            <column name="name" value="Task 24"/>
+            <column name="type" value="Fitness"/>
+            <column name="description" value="Description for Task 24"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="25"/>
+            <column name="name" value="Task 25"/>
+            <column name="type" value="Shopping"/>
+            <column name="description" value="Description for Task 25"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="26"/>
+            <column name="name" value="Task 26"/>
+            <column name="type" value="Hobby"/>
+            <column name="description" value="Description for Task 26"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="27"/>
+            <column name="name" value="Task 27"/>
+            <column name="type" value="Education"/>
+            <column name="description" value="Description for Task 27"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="28"/>
+            <column name="name" value="Task 28"/>
+            <column name="type" value="Personal"/>
+            <column name="description" value="Description for Task 28"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="29"/>
+            <column name="name" value="Task 29"/>
+            <column name="type" value="Work"/>
+            <column name="description" value="Description for Task 29"/>
+        </insert>
+        <insert tableName="todo">
+            <column name="id" valueNumeric="30"/>
+            <column name="name" value="Task 30"/>
+            <column name="type" value="Fitness"/>
+            <column name="description" value="Description for Task 30"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
